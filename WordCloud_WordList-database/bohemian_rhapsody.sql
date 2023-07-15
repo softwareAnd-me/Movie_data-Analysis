@@ -1,7 +1,6 @@
 CREATE DATABASE MovieCloudList;
 USE MovieCLoudList;
 CREATE TABLE Bohemian_Rhapsody(Frequency INT(255), Word VARCHAR(255));
-CREATE TABLE La_La_Land(Frequency INT(255), Word VARCHAR(255));
 SHOW TABLES;
 
 INSERT INTO Bohemian_Rhapsody(Frequency, Word)
@@ -65,3 +64,4 @@ VALUES(3, "life");
 
 SELECT *
 FROM Bohemian_Rhapsody;
+
